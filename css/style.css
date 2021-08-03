@@ -1,0 +1,21 @@
+body{
+  background: hsl(185, 75%, 39%);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+}
+
+.card{
+  display: inline-block;
+
+  height: 375px;
+  width: 350px;
+  background: cyan;
+}
+
+.attribution{
+  position: absolute;
+  bottom: 1%;
+  left: 50%;
+  transform: translateX(-50%);
+}
