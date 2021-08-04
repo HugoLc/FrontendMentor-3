@@ -5,6 +5,7 @@ body{
   height: 100vh;
   font-family: 'Kumbh Sans', sans-serif;
   color: hsl(227, 10%, 46%);
+
 }
 
 h1{
@@ -15,9 +16,15 @@ h1{
 }
 
 .pat-top{
-  position: absolute;
+  position: fixed;
   top: -50%;
   left: -25%;
+}
+
+.pat-bot{
+  position: fixed;
+  bottom: -50%;
+  right: -25%;
 }
 
 .card{
@@ -105,4 +112,5 @@ h1{
   bottom: 1%;
   left: 50%;
   transform: translateX(-50%);
+  color: hsl(229, 23%, 23%);
 }
