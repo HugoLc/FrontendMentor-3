@@ -24,6 +24,7 @@ h1{
   width: 350px;
   background: white;
   border-radius: 20px;
+  box-shadow: 0 0 50px rgba(100,100,100,0.4);
 }
 
 .top{
@@ -53,6 +54,7 @@ h1{
   border: 7px solid white;
   border-radius: 50%;
   margin-bottom: 15px;
+  width: 94px;
 }
 
 .idade{
@@ -62,17 +64,35 @@ h1{
 
 .cidade{
   display: inline-block;
-  margin-top: 10px;
+  margin-top: 13px;
+  font-size: 15px;
 }
 
 .bot{
   width: 100%;
   height: 90px;
-  background: yellow;
   border-top: 1px solid rgb(150,150,150);
   border-radius: 0 0 20px 20px;
+
 }
 
+.lista-stats{
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 30px;
+}
+
+.lista-stats li{
+  display: inline-block;
+  text-align: center;
+}
+
+.lista-stats li span{
+  display: inline-block;
+  font-size: 12px;
+  margin-top: 5px;
+  letter-spacing: 1px;
+}
 
 .attribution{
   position: absolute;
