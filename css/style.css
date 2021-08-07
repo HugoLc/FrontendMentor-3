@@ -139,6 +139,7 @@ h1{
     position: absolute;
     height: 375px;
     width: 90%;
+    max-width: 350px;
     background: white;
     border-radius: 20px;
     box-shadow: 0 0 50px rgba(100,100,100,0.4);
